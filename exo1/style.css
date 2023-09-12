@@ -1,0 +1,220 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgb(204, 190, 190);
+}
+
+nav ul li a {
+    margin: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+ul li a:hover {
+    color: rgb(204, 19, 19);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: rgb(204, 19, 19);
+    border-bottom-color: rgb(204, 19, 19);
+
+}
+
+img{
+    width: 100px;
+    float: left;
+}
+
+header ul li{
+    text-decoration: none;
+    display: inline-flex;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.laPetiteHistoire{
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(245, 241, 241);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pedagogieTitle{
+    color: rgb(204, 19, 19);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.sousTitre{
+    color: rgb(204, 19, 19);
+    font-weight: bold;
+}
+
+.notrePedagogie{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.notrePedagogie div{
+    display: inline-block;
+}
+
+.notrePedagogiepart1 iframe{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+.notrePedagogiepart2 {
+    width: 100%;
+    height: 300px;
+    float: right;
+}
+
+.trait-rouge {
+    border-bottom: 7px solid rgb(204, 19, 19);
+    width: 100px; /* Ajustez la largeur du trait selon vos préférences */
+    margin: 0 auto; /* Centrez le trait horizontalement */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+}
+
+.pilierspedagogique .cards div .card{
+    display: inline-block;
+}
+
+.Allcards .card{
+    margin: 10px;
+    height: 190px;
+    width: 360px;
+    box-shadow: 5px 5px 5px rgb(190, 188, 188);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pilierspedagogique div{
+    display: inline-block;
+}
+
+.firstcol{
+    margin-right: 100px;
+}
+
+.secodecol{
+    margin-left: 150px;
+}
+
+.rang{
+    color: rgb(204, 19, 19);
+    font-weight: bold;
+}
+
+.titlecard{
+    font-weight: bold;
+}
+
+.card-text{
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.Title{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-weight: bold;
+    color: rgb(204, 19, 19);
+    text-align: center;
+}
+
+.button{
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: rgb(204, 19, 19);
+    color: white;
+}
+
+.nosvaleurs div{
+    display: inline-block;
+}
+
+/* Styles pour le cercle */
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(214, 208, 208);
+    border-radius: 50%;
+    align-items: center;
+    color: rgb(204, 19, 19);
+    font-size: 20px;
+}
+
+.Respect{
+    float: right;
+}
+
+.card-body-respect{
+    text-align: center;
+}
+
+.cardrespect{
+    height: 50px;
+}
+
+.cardvaleur{
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+
+.title-chifres {
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+.text{
+    justify-content: center;
+    display: flex;
+}
+
+.nos-chifres{
+    justify-content: center;
+    background-color: rgb(204, 19, 19);
+    margin: 25px;
+}
+
+.part{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: white;
+    justify-content: center;
+}
+
+.card-deck .card{
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+

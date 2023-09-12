@@ -1,0 +1,67 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 11%;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour l'en-tête */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styles pour le formulaire */
+.task-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+/* Style pour les champs de saisie */
+input, select {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style pour le bouton */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Styles pour la liste des tâches (à ajouter plus tard dans le CSS) */
+.task {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+/* Autres styles spécifiques à votre application (à ajouter selon vos besoins) */
